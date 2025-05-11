@@ -1,0 +1,5 @@
+s = input('Input: ')
+s1 = input('Starts with: ')
+s2 = input('Ends with: ')
+print(s.startswith(s1))
+print(s.endswith(s2))
