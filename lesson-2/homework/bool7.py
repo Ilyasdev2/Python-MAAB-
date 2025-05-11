@@ -1,3 +1,3 @@
-a = float(input())
-b = float(input())
-print(a + b > 50.8 and (10 <= a <= 20 or 10 <= b <= 20))
+num1 = float(input())
+num2 = float(input())
+print(num1 + num2 > 50.8)

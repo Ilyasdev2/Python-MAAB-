@@ -1,6 +1,8 @@
-n = int(input())
-if n % 2:
-    print('Odd')
-else:
-    print('Even')
-    
+try:
+    num = int(input())
+    if num % 2:
+        print('Odd')
+    else:
+        print('Even')
+except:
+    print('Enter valid numbers')

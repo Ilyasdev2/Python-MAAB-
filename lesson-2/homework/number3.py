@@ -1,2 +1,5 @@
-n = int(input())
-print(n * 1000, n * 100000)
+try:
+    num = int(input())
+    print(num * 1000, num * 100000)
+except:
+    print('Enter valid numbers')
